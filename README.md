@@ -2,11 +2,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Build Status](https://github.com/tmwgsicp/dify-on-qianniu/workflows/Python%20application/badge.svg)](https://github.com/tmwgsicp/dify-on-qianniu/actions)
 [![Dify](https://img.shields.io/badge/Powered%20by-Dify-orange.svg)](https://dify.ai)
 [![Clicknium](https://img.shields.io/badge/Automation-Clicknium-blue.svg)](https://www.clicknium.com/)
 
 基于 Dify AI 和 Clicknium 自动化的千牛客服机器人，通过 RPA 技术实现智能客服自动回复。
+基于Clicknium和Dify的轻量千牛智能客服机器人，支持扩展到京东、拼多多等平台
 
 ## 🎯 项目特点
 
@@ -22,9 +22,10 @@
 
 - Python 3.9+
 - Windows 系统
-- VScode（Clicknium 支持）
-- 千牛客服工作台
-- Dify AI 账号
+- Clicknium许可
+- VScode（Clicknium支持）
+- 千牛客户端
+- Dify平台（建议私有化部署）
 
 ### 安装步骤
 
@@ -175,14 +176,6 @@ dify-on-qianniu/
    - 检查 Clicknium 许可证
    - 确认配置文件格式正确
 
-### 调试模式
-
-在代码开头添加调试日志：
-
-```python
-import logging
-logging.basicConfig(level=logging.DEBUG)
-```
 
 ## 🚀 扩展开发
 
@@ -194,13 +187,6 @@ logging.basicConfig(level=logging.DEBUG)
 - 其他客服系统
 
 只需重新录制对应平台的界面元素即可。
-
-### 功能扩展
-
-- 添加更多 AI 模型支持
-- 集成知识库功能
-- 添加客服数据统计
-- 支持更多消息类型
 
 ## 📄 许可证
 
@@ -220,9 +206,36 @@ logging.basicConfig(level=logging.DEBUG)
 
 本项目由 [@tmwgsicp](https://github.com/tmwgsicp) 开发和维护。
 
-## 📞 联系方式
+## 📞 联系与交流
 
-如有问题或建议，请通过 GitHub Issues 联系。
+### 💬 技术交流与学习指导
+
+如果你在部署过程中遇到问题，或者想要学习更多关于AI自动化、工作流的技术，欢迎添加我的联系方式进行交流：
+
+<div align="center">
+  <img src="contact.jpg" alt="联系方式" width="300">
+  <p><em>扫码添加联系方式，获取技术支持和学习指导</em></p>
+</div>
+
+### 🎯 问题反馈
+
+对于一般性问题和Bug报告，请优先通过 [GitHub Issues](https://github.com/tmwgsicp/dify-on-qianniu/issues) 提交，这样可以帮助更多用户。
+
+## ☕ 支持项目
+
+如果这个项目对你有帮助，欢迎请我喝杯奶茶！你的支持是我持续更新和维护项目的动力。
+
+<div align="center">
+  <img src="donate.jpg" alt="赞赏码" width="300">
+  <p><em>感谢你的支持与鼓励！</em></p>
+</div>
+
+### 🙏 其他支持方式
+
+- ⭐ 给项目一个 Star
+- 🐛 提交 Bug 报告和改进建议  
+- 📢 向朋友推荐这个项目
+- 🔧 贡献代码和文档
 
 ---
 
