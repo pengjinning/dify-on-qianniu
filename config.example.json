@@ -1,0 +1,19 @@
+{
+    "dify": {
+        "vision_api_url": "https://your-dify-instance.com/v1/workflows/run",
+        "chat_api_url": "https://your-dify-instance.com/v1/chat-messages",
+        "file_upload_url": "https://your-dify-instance.com/v1/files/upload",
+        "api_key": "app-your-chat-api-key",
+        "vision_api_key": "app-your-vision-api-key"
+    },
+    "clicknium": {
+        "license_key": "your-clicknium-license-key"
+    },
+    "settings": {
+        "check_interval": 2,
+        "error_retry_interval": 5,
+        "use_screenshot": true,
+        "cleanup_screenshots": true,
+        "cleanup_after_days": 7
+    }
+} 

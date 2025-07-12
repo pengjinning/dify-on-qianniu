@@ -1,0 +1,2317 @@
+{
+	"id": "20aa5889-7ec1-426b-ae5d-bbcfe6423d98",
+	"name": "aliworkbench",
+	"nodes": [],
+	"locators": [
+		{
+			"id": "7b0dda12-d019-4cc9-86a5-60f44b132952",
+			"name": "new_message",
+			"filePath": "f8c12431-6cb9-46a8-9774-785356bd0858.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "UIWindow"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "ChatView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-接待中心"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "UIWindow.centralwidget"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "UIWindow.centralwidget.SubChatView"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "SubChatView"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "UIWindow.centralwidget.SubChatView.ChatListWidget"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "group"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QWidget"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "group"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "ChatListView"
+															},
+															"controlMetaType": "Uia",
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView.centralwidget"
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "group"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "QWidget"
+																	},
+																	"controlMetaType": "Uia",
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView.centralwidget.list_widget"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "group"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "QWidget"
+																			},
+																			"controlMetaType": "Uia",
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [
+																			{
+																				"identifier": {
+																					"automationId": {
+																						"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView.centralwidget.list_widget.ReceptionListView"
+																					},
+																					"isPassword": {
+																						"value": "False",
+																						"excluded": true
+																					},
+																					"orientation": {
+																						"value": "None",
+																						"excluded": true
+																					},
+																					"role": {
+																						"value": "group"
+																					},
+																					"isDirectChild": {
+																						"value": "True"
+																					},
+																					"className": {
+																						"value": "ReceptionListView"
+																					},
+																					"controlMetaType": "Uia",
+																					"index": {
+																						"value": "1",
+																						"excluded": true
+																					}
+																				},
+																				"childControls": [
+																					{
+																						"identifier": {
+																							"automationId": {
+																								"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView.centralwidget.list_widget.ReceptionListView.stackedWidget"
+																							},
+																							"isPassword": {
+																								"value": "False",
+																								"excluded": true
+																							},
+																							"orientation": {
+																								"value": "None",
+																								"excluded": true
+																							},
+																							"role": {
+																								"value": "custom"
+																							},
+																							"isDirectChild": {
+																								"value": "True"
+																							},
+																							"className": {
+																								"value": "QStackedWidget"
+																							},
+																							"controlMetaType": "Uia",
+																							"index": {
+																								"value": "1",
+																								"excluded": true
+																							}
+																						},
+																						"childControls": [
+																							{
+																								"identifier": {
+																									"automationId": {
+																										"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView.centralwidget.list_widget.ReceptionListView.stackedWidget.normalList"
+																									},
+																									"isPassword": {
+																										"value": "False",
+																										"excluded": true
+																									},
+																									"orientation": {
+																										"value": "None",
+																										"excluded": true
+																									},
+																									"role": {
+																										"value": "group"
+																									},
+																									"isDirectChild": {
+																										"value": "True"
+																									},
+																									"className": {
+																										"value": "QWidget"
+																									},
+																									"controlMetaType": "Uia",
+																									"index": {
+																										"value": "1",
+																										"excluded": true
+																									}
+																								},
+																								"childControls": [
+																									{
+																										"identifier": {
+																											"automationId": {
+																												"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView.centralwidget.list_widget.ReceptionListView.stackedWidget.normalList.NormalReceptionListView"
+																											},
+																											"isPassword": {
+																												"value": "False",
+																												"excluded": true
+																											},
+																											"orientation": {
+																												"value": "None",
+																												"excluded": true
+																											},
+																											"role": {
+																												"value": "group"
+																											},
+																											"isDirectChild": {
+																												"value": "True"
+																											},
+																											"className": {
+																												"value": "NormalReceptionListView"
+																											},
+																											"controlMetaType": "Uia",
+																											"index": {
+																												"value": "1",
+																												"excluded": true
+																											}
+																										},
+																										"childControls": [
+																											{
+																												"identifier": {
+																													"automationId": {
+																														"value": "UIWindow.centralwidget.SubChatView.ChatListWidget.ChatListView.centralwidget.list_widget.ReceptionListView.stackedWidget.normalList.NormalReceptionListView.receptionListWidget"
+																													},
+																													"isPassword": {
+																														"value": "False",
+																														"excluded": true
+																													},
+																													"orientation": {
+																														"value": "None",
+																														"excluded": true
+																													},
+																													"role": {
+																														"value": "tree"
+																													},
+																													"isDirectChild": {
+																														"value": "True"
+																													},
+																													"className": {
+																														"value": "UITreeView"
+																													},
+																													"controlMetaType": "Uia",
+																													"index": {
+																														"value": "1",
+																														"excluded": true
+																													}
+																												},
+																												"childControls": [
+																													{
+																														"identifier": {
+																															"automationId": {
+																																"value": "",
+																																"excluded": true
+																															},
+																															"isPassword": {
+																																"value": "False",
+																																"excluded": true
+																															},
+																															"orientation": {
+																																"value": "None",
+																																"excluded": true
+																															},
+																															"role": {
+																																"value": "treeItem"
+																															},
+																															"isDirectChild": {
+																																"value": "False",
+																																"excluded": true
+																															},
+																															"className": {
+																																"value": "",
+																																"excluded": true
+																															},
+																															"controlMetaType": "Uia",
+																															"name": {
+																																"value": "",
+																																"excluded": true,
+																																"operator": "equals"
+																															}
+																														},
+																														"childControls": [],
+																														"excluded": false
+																													}
+																												],
+																												"excluded": false
+																											}
+																										],
+																										"excluded": false
+																									}
+																								],
+																								"excluded": false
+																							}
+																						],
+																						"excluded": false
+																					}
+																				],
+																				"excluded": false
+																			}
+																		],
+																		"excluded": false
+																	}
+																],
+																"excluded": false
+															}
+														],
+														"excluded": false
+													}
+												],
+												"excluded": false
+											}
+										],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "7ca72e75-9a10-4c3b-a8ca-6d141657c4f8",
+			"name": "button_send",
+			"filePath": "535176a9-b5ee-4368-a2be-cd918b9bdf20.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "UIWindow"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "ChatView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-接待中心"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "UIWindow.centralwidget"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "UIWindow.centralwidget.SubChatView"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "SubChatView"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "group"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QWidget"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "group"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "ChatContentView"
+															},
+															"controlMetaType": "Uia",
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter"
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "custom"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "QSplitter"
+																	},
+																	"controlMetaType": "Uia",
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.sendMsgWidget"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "group"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "QWidget"
+																			},
+																			"controlMetaType": "Uia",
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [
+																			{
+																				"identifier": {
+																					"automationId": {
+																						"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.sendMsgWidget.enterAreaKeyWidget"
+																					},
+																					"isPassword": {
+																						"value": "False",
+																						"excluded": true
+																					},
+																					"orientation": {
+																						"value": "None",
+																						"excluded": true
+																					},
+																					"role": {
+																						"value": "group"
+																					},
+																					"isDirectChild": {
+																						"value": "True"
+																					},
+																					"className": {
+																						"value": "QWidget"
+																					},
+																					"controlMetaType": "Uia",
+																					"index": {
+																						"value": "1",
+																						"excluded": true
+																					}
+																				},
+																				"childControls": [
+																					{
+																						"identifier": {
+																							"automationId": {
+																								"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.sendMsgWidget.enterAreaKeyWidget.sendMsg"
+																							},
+																							"isPassword": {
+																								"value": "False",
+																								"excluded": true
+																							},
+																							"orientation": {
+																								"value": "None",
+																								"excluded": true
+																							},
+																							"role": {
+																								"value": "button"
+																							},
+																							"isDirectChild": {
+																								"value": "True"
+																							},
+																							"className": {
+																								"value": "QPushButton"
+																							},
+																							"controlMetaType": "Uia",
+																							"name": {
+																								"value": "发送",
+																								"excluded": true
+																							},
+																							"index": {
+																								"value": "1",
+																								"excluded": true
+																							}
+																						}
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "14512223-0b30-48f3-ba17-44988f7bb303",
+			"name": "reply_text",
+			"filePath": "aea8a260-b786-4523-8730-2e20227fefbf.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "UIWindow"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "ChatView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-接待中心"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "UIWindow.centralwidget"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "UIWindow.centralwidget.SubChatView"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "SubChatView"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "group"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QWidget"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "group"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "ChatContentView"
+															},
+															"controlMetaType": "Uia",
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter"
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "custom"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "QSplitter"
+																	},
+																	"controlMetaType": "Uia",
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.sendMsgWidget"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "group"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "QWidget"
+																			},
+																			"controlMetaType": "Uia",
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [
+																			{
+																				"identifier": {
+																					"automationId": {
+																						"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.sendMsgWidget.chatInputArea"
+																					},
+																					"isPassword": {
+																						"value": "False",
+																						"excluded": true
+																					},
+																					"orientation": {
+																						"value": "None",
+																						"excluded": true
+																					},
+																					"role": {
+																						"value": "group"
+																					},
+																					"isDirectChild": {
+																						"value": "True"
+																					},
+																					"className": {
+																						"value": "QWidget"
+																					},
+																					"controlMetaType": "Uia",
+																					"index": {
+																						"value": "1",
+																						"excluded": true
+																					}
+																				},
+																				"childControls": [
+																					{
+																						"identifier": {
+																							"automationId": {
+																								"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.sendMsgWidget.chatInputArea.plainTextEdit"
+																							},
+																							"isPassword": {
+																								"value": "False",
+																								"excluded": true
+																							},
+																							"orientation": {
+																								"value": "None",
+																								"excluded": true
+																							},
+																							"role": {
+																								"value": "edit"
+																							},
+																							"isDirectChild": {
+																								"value": "True"
+																							},
+																							"className": {
+																								"value": "TextRichEdit"
+																							},
+																							"controlMetaType": "Uia",
+																							"index": {
+																								"value": "1",
+																								"excluded": true
+																							}
+																						},
+																						"childControls": [
+																							{
+																								"identifier": {
+																									"automationId": {
+																										"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.sendMsgWidget.chatInputArea.plainTextEdit.qt_scrollarea_viewport"
+																									},
+																									"isPassword": {
+																										"value": "False",
+																										"excluded": true
+																									},
+																									"orientation": {
+																										"value": "None",
+																										"excluded": true
+																									},
+																									"role": {
+																										"value": "group"
+																									},
+																									"isDirectChild": {
+																										"value": "True"
+																									},
+																									"className": {
+																										"value": "QWidget"
+																									},
+																									"controlMetaType": "Uia",
+																									"index": {
+																										"value": "1",
+																										"excluded": true
+																									}
+																								},
+																								"childControls": [],
+																								"excluded": true
+																							}
+																						],
+																						"excluded": false
+																					}
+																				],
+																				"excluded": false
+																			}
+																		],
+																		"excluded": false
+																	}
+																],
+																"excluded": false
+															}
+														],
+														"excluded": false
+													}
+												],
+												"excluded": false
+											}
+										],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "d75c8ee7-b83a-4d36-b2d2-9ce4bb88b106",
+			"name": "chat_window",
+			"filePath": "f8178e4d-2a5e-4b0c-94df-7ccfc914eec1.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "UIWindow"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "ChatView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-接待中心"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "UIWindow.centralwidget"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "UIWindow.centralwidget.SubChatView"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "SubChatView"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "group"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QWidget"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "group"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "ChatContentView"
+															},
+															"controlMetaType": "Uia",
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter"
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "custom"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "QSplitter"
+																	},
+																	"controlMetaType": "Uia",
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.msgDisplayWidget"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "group"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "QWidget"
+																			},
+																			"controlMetaType": "Uia",
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [
+																			{
+																				"identifier": {
+																					"automationId": {
+																						"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.msgDisplayWidget.MessageListContainerView"
+																					},
+																					"isPassword": {
+																						"value": "False",
+																						"excluded": true
+																					},
+																					"orientation": {
+																						"value": "None",
+																						"excluded": true
+																					},
+																					"role": {
+																						"value": "group"
+																					},
+																					"isDirectChild": {
+																						"value": "True"
+																					},
+																					"className": {
+																						"value": "MessageListContainerView"
+																					},
+																					"controlMetaType": "Uia",
+																					"index": {
+																						"value": "1",
+																						"excluded": true
+																					}
+																				},
+																				"childControls": [
+																					{
+																						"identifier": {
+																							"automationId": {
+																								"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.msgDisplayWidget.MessageListContainerView.stackedWidget"
+																							},
+																							"isPassword": {
+																								"value": "False",
+																								"excluded": true
+																							},
+																							"orientation": {
+																								"value": "None",
+																								"excluded": true
+																							},
+																							"role": {
+																								"value": "custom"
+																							},
+																							"isDirectChild": {
+																								"value": "True"
+																							},
+																							"className": {
+																								"value": "QStackedWidget"
+																							},
+																							"controlMetaType": "Uia",
+																							"index": {
+																								"value": "1",
+																								"excluded": true
+																							}
+																						},
+																						"childControls": [
+																							{
+																								"identifier": {
+																									"automationId": {
+																										"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.msgDisplayWidget.MessageListContainerView.stackedWidget.ScrollingMessageListView"
+																									},
+																									"isPassword": {
+																										"value": "False",
+																										"excluded": true
+																									},
+																									"orientation": {
+																										"value": "None",
+																										"excluded": true
+																									},
+																									"role": {
+																										"value": "group"
+																									},
+																									"isDirectChild": {
+																										"value": "True"
+																									},
+																									"className": {
+																										"value": "ScrollingMessageListView"
+																									},
+																									"controlMetaType": "Uia",
+																									"index": {
+																										"value": "1",
+																										"excluded": true
+																									}
+																								},
+																								"childControls": [
+																									{
+																										"identifier": {
+																											"automationId": {
+																												"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.msgDisplayWidget.MessageListContainerView.stackedWidget.ScrollingMessageListView.messagelistWidget"
+																											},
+																											"isPassword": {
+																												"value": "False",
+																												"excluded": true
+																											},
+																											"orientation": {
+																												"value": "None",
+																												"excluded": true
+																											},
+																											"role": {
+																												"value": "group"
+																											},
+																											"isDirectChild": {
+																												"value": "True"
+																											},
+																											"className": {
+																												"value": "MySmoothScrollView"
+																											},
+																											"controlMetaType": "Uia",
+																											"index": {
+																												"value": "1",
+																												"excluded": true
+																											}
+																										},
+																										"childControls": [
+																											{
+																												"identifier": {
+																													"automationId": {
+																														"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.splitter.msgDisplayWidget.MessageListContainerView.stackedWidget.ScrollingMessageListView.messagelistWidget.qt_scrollarea_viewport"
+																													},
+																													"isPassword": {
+																														"value": "False",
+																														"excluded": true
+																													},
+																													"orientation": {
+																														"value": "None",
+																														"excluded": true
+																													},
+																													"role": {
+																														"value": "group"
+																													},
+																													"isDirectChild": {
+																														"value": "True"
+																													},
+																													"className": {
+																														"value": "QWidget"
+																													},
+																													"controlMetaType": "Uia",
+																													"index": {
+																														"value": "1",
+																														"excluded": true
+																													}
+																												}
+																											}
+																										]
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "571c430a-28d0-4a19-ac18-f91d57d7a1cc",
+			"name": "button_transfer",
+			"filePath": "b47e00cb-2a5c-4610-a401-474c1a19523e.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "UIWindow"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "ChatView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-接待中心"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "UIWindow.centralwidget"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "UIWindow.centralwidget.SubChatView"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "SubChatView"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "group"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QWidget"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "group"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "ChatContentView"
+															},
+															"controlMetaType": "Uia",
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.titleWidget"
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "group"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "QWidget"
+																	},
+																	"controlMetaType": "Uia",
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.titleWidget.tranfer"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "button"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "QPushButton"
+																			},
+																			"controlMetaType": "Uia",
+																			"name": {
+																				"value": "转发当前用户",
+																				"excluded": true
+																			},
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		}
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "efa7f23b-5632-46be-b42f-c281d1d0fb8b",
+			"name": "current_user",
+			"filePath": "b9dd77cc-8321-470e-a4f5-780b9a4d8dda.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "UIWindow"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "ChatView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-接待中心"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "UIWindow.centralwidget"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "UIWindow.centralwidget.SubChatView"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "SubChatView"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "group"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QWidget"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "group"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "ChatContentView"
+															},
+															"controlMetaType": "Uia",
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.titleWidget"
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "group"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "QWidget"
+																	},
+																	"controlMetaType": "Uia",
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "UIWindow.centralwidget.SubChatView.ChatDisplayWidget.ChatContentView.titleWidget.titlename"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "text"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "UILabel"
+																			},
+																			"controlMetaType": "Uia",
+																			"name": {
+																				"value": "[",
+																				"excluded": false,
+																				"operator": "contains"
+																			},
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [],
+																		"excluded": false
+																	}
+																],
+																"excluded": false
+															}
+														],
+														"excluded": false
+													}
+												],
+												"excluded": false
+											}
+										],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "76f8c4bf-8aee-44fd-8e20-d103c2a27116",
+			"name": "button_接待关闭",
+			"filePath": "69e2f4a0-0c8b-4e55-9df6-b2d9888fd6c4.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "UIWindow"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "ChatView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-接待中心"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "UIWindow.centralwidget"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "UIWindow.centralwidget.chat_nc_Widget"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "UINCWidgetCustom"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "UIWindow.centralwidget.chat_nc_Widget.btnMenu_Close"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "button"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QPushButton"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "关闭",
+														"excluded": true
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "751df180-c137-4386-91cb-0438738c3b86",
+			"name": "button_跳转接待中心",
+			"filePath": "d905c833-196a-4cb6-8197-6040267479fd.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "AliWorkbench"
+				},
+				"filePath": {
+					"value": "AliWorkbench.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "WorkbenchView"
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "window"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "WorkbenchView"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "twins中华区总代理:小晴-千牛工作台"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "WorkbenchView.widget_container"
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "group"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "QWidget"
+									},
+									"controlMetaType": "Uia",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "WorkbenchView.widget_container.widget_workbench"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "group"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "QWidget"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "WorkbenchView.widget_container.widget_workbench.widget_toolbar"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "group"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "QWidget"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "WorkbenchView.widget_container.widget_workbench.widget_toolbar.pushButton_chat"
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "button"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "QPushButton"
+															},
+															"controlMetaType": "Uia",
+															"name": {
+																"value": "接待中心",
+																"excluded": true
+															},
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}
