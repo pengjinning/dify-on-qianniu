@@ -46,6 +46,3 @@ Thumbs.db
 
 # 项目准备文件（开源前删除）
 GITHUB_CHECKLIST.md
-
-# Workflows 文件
-.github/workflows/
