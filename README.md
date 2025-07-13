@@ -5,14 +5,23 @@
 [![Dify](https://img.shields.io/badge/Powered%20by-Dify-orange.svg)](https://dify.ai)
 [![Clicknium](https://img.shields.io/badge/Automation-Clicknium-blue.svg)](https://www.clicknium.com/)
 
-基于Clicknium和Dify的轻量千牛智能客服机器人，支持扩展到京东、拼多多、抖音等电商平台
+
+> 🎯 **一句话介绍**：通过RPA技术自动监测千牛客服消息，结合AI智能回复，实现7x24小时无人值守客服
 
 ## 🎯 项目特点
 
-- **界面自动化**：基于Clicknium，直接操作千牛客户端
-- **高度定制**：后端AI基于Dify，智能客服逻辑支持定制化
-- **轻量设计**：约400行Python代码，依赖简单
-- **智能分流**：自动判断复杂问题并转人工处理
+- **界面自动化**：基于Clicknium，直接操作千牛客户端，无需API接口
+- **高度定制**：后端AI基于Dify，智能客服逻辑支持完全定制化
+- **轻量设计**：约380行Python代码，依赖简单，轻量运行
+- **无限扩展**：支持扩展至众多电商客服平台，开发简单
+
+## 🚀 核心功能
+
+- 🔍 **智能监测**：实时监测千牛客服界面的新消息通知
+- 📸 **内容识别**：自动截取聊天记录，AI提取图像中的文本信息
+- 🤖 **智能回复**：基于Dify生成专业的客服回复内容
+- 🔄 **自动分流**：复杂问题自动转人工，简单问题AI处理
+- ⚡ **自动操作**：自动发送回复、转人工等界面操作
 
 ## 🚀 快速开始
 
@@ -27,25 +36,25 @@
 
 ### 安装步骤
 
-1. **克隆项目**
+**1. 克隆项目**
 ```bash
 git clone https://github.com/tmwgsicp/dify-on-qianniu.git
 cd dify-on-qianniu
 ```
 
-2. **安装依赖**
+**2. 安装依赖**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **配置文件**
+**3. 配置文件**
 ```bash
 cp config.example.json config.json
 ```
 
 然后编辑 `config.json` 填入你的 API 配置。
 
-4. **千牛客户端设置**
+**4. 千牛客户端设置**
 
 ⚠️ **重要设置**：在千牛客户端进行以下配置，否则机器人可能无法正常工作：
 
@@ -53,7 +62,8 @@ cp config.example.json config.json
 2. 进入 **系统设置** → **接待设置**
 3. **勾选**：`关闭客服工作台是否清除正在接待列表已读会话`
 
-5. **界面元素录制**
+
+**5. 界面元素录制**
 
 使用 Clicknium Studio 录制以下关键界面元素：
 
@@ -68,7 +78,7 @@ cp config.example.json config.json
 | `button_跳转接待中心` | 从工作台跳转接待中心 | 录制工作台界面右上角的旺旺图标 |
 | `button_transfer` | 转人工按钮 | 录制接待中心的转人工按钮 |
 
-6. **运行程序**
+**6. 运行程序**
 ```bash
 python qianniu_bot.py
 ```
@@ -129,6 +139,8 @@ dify-on-qianniu/
 ├── requirements.txt       # Python依赖
 ├── .locator/              # Clicknium界面定位器
 ├── screenshots/           # 聊天截图缓存
+├── .github/               # GitHub配置
+│   └── ISSUE_TEMPLATE/    # Issue模板
 └── README.md              # 项目说明
 ```
 
@@ -171,7 +183,7 @@ dify-on-qianniu/
 - 抖音
 - 其他电商客服
 
-核心处理逻辑已实现，只需重新录制对应平台的界面元素即可。
+> 💡 **提示**：核心处理逻辑已实现，扩展新平台主要是界面适配工作
 
 ## 📄 许可证
 
