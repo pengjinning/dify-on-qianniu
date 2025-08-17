@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <title>千牛智能客服机器人</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .status-card {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        button {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+        
+        button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        
+        .status-running {
+            background: #4CAF50;
+        }
+        
+        .status-stopped {
+            background: #f44336;
+        }
+        
+        .status-unknown {
+            background: #ff9800;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .info-section {
+            margin: 20px 0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 6px;
+            border-left: 4px solid rgba(255, 255, 255, 0.5);
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 千牛智能客服机器人</h1>
+        
+        <div class="status-card">
+            <h3>📊 运行状态</h3>
+            <div id="status-display">
+                <span class="status-indicator status-unknown"></span>
+                <span id="status-text">检查中...</span>
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <button id="start-btn" onclick="startBot()">🚀 启动机器人</button>
+            <button id="stop-btn" onclick="stopBot()">⏹️ 停止机器人</button>
+            <button id="check-btn" onclick="manualCheck()">🔍 手动检查</button>
+            <button onclick="refreshStatus()">🔄 刷新状态</button>
+        </div>
+        
+        <div class="info-section">
+            <h3>🔧 功能特性</h3>
+            <ul class="feature-list">
+                <li>🎯 自动识别客户消息</li>
+                <li>🧠 Dify AI 智能回复</li>
+                <li>📸 屏幕截图分析</li>
+                <li>⌨️ 自动键盘鼠标操作</li>
+                <li>🔄 实时监控循环</li>
+                <li>⚙️ 可配置参数设置</li>
+            </ul>
+        </div>
+        
+        <div class="info-section">
+            <h3>📋 使用说明</h3>
+            <p>1. 确保千牛客服软件已打开</p>
+            <p>2. 配置 Dify API 密钥和工作流 URL</p>
+            <p>3. 准备界面模板图片（客户消息、输入框、发送按钮）</p>
+            <p>4. 授予系统屏幕录制和辅助功能权限</p>
+            <p>5. 点击"启动机器人"开始自动客服</p>
+        </div>
+        
+        <div class="footer">
+            <p>千牛智能客服机器人 v1.0.0 | Powered by Electron + TypeScript + Dify AI</p>
+        </div>
+    </div>
+
+    <script>
+        // 机器人状态管理
+        let botStatus = 'unknown';
+        
+        // 页面加载完成后刷新状态
+        document.addEventListener('DOMContentLoaded', () => {
+            refreshStatus();
+        });
+        
+        // 启动机器人
+        async function startBot() {
+            const btn = document.getElementById('start-btn');
+            btn.disabled = true;
+            btn.textContent = '🔄 启动中...';
+            
+            try {
+                const result = await window.electronAPI.startBot();
+                if (result.success) {
+                    updateStatus('running', '运行中');
+                    showNotification('✅ ' + result.message, 'success');
+                } else {
+                    showNotification('❌ ' + result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('❌ 启动失败: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🚀 启动机器人';
+            }
+        }
+        
+        // 停止机器人
+        async function stopBot() {
+            const btn = document.getElementById('stop-btn');
+            btn.disabled = true;
+            btn.textContent = '🔄 停止中...';
+            
+            try {
+                const result = await window.electronAPI.stopBot();
+                if (result.success) {
+                    updateStatus('stopped', '已停止');
+                    showNotification('✅ ' + result.message, 'success');
+                } else {
+                    showNotification('❌ ' + result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('❌ 停止失败: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '⏹️ 停止机器人';
+            }
+        }
+        
+        // 手动检查
+        async function manualCheck() {
+            const btn = document.getElementById('check-btn');
+            btn.disabled = true;
+            btn.textContent = '🔄 检查中...';
+            
+            try {
+                const result = await window.electronAPI.manualCheck();
+                if (result.success) {
+                    showNotification('✅ ' + result.message, 'success');
+                } else {
+                    showNotification('❌ ' + result.message, 'error');
+                }
+            } catch (error) {
+                showNotification('❌ 检查失败: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔍 手动检查';
+            }
+        }
+        
+        // 刷新状态
+        async function refreshStatus() {
+            try {
+                const status = await window.electronAPI.getBotStatus();
+                updateStatus(status.isRunning ? 'running' : 'stopped', 
+                            status.isRunning ? '运行中' : '已停止');
+            } catch (error) {
+                updateStatus('unknown', '状态未知');
+            }
+        }
+        
+        // 更新状态显示
+        function updateStatus(status, text) {
+            botStatus = status;
+            const indicator = document.querySelector('.status-indicator');
+            const statusText = document.getElementById('status-text');
+            
+            // 移除所有状态类
+            indicator.className = 'status-indicator';
+            
+            // 添加新状态类
+            indicator.classList.add(`status-${status}`);
+            statusText.textContent = text;
+            
+            // 更新按钮状态
+            document.getElementById('start-btn').disabled = status === 'running';
+            document.getElementById('stop-btn').disabled = status !== 'running';
+        }
+        
+        // 显示通知
+        function showNotification(message, type = 'info') {
+            // 简单的通知显示（可以用更复杂的组件替换）
+            console.log(`[${type.toUpperCase()}] ${message}`);
+            
+            // 创建临时通知元素
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: ${type === 'success' ? '#4CAF50' : type === 'error' ? '#f44336' : '#2196F3'};
+                color: white;
+                padding: 15px 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+                z-index: 1000;
+                opacity: 0;
+                transform: translateX(100%);
+                transition: all 0.3s ease;
+            `;
+            notification.textContent = message;
+            
+            document.body.appendChild(notification);
+            
+            // 动画显示
+            setTimeout(() => {
+                notification.style.opacity = '1';
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // 3秒后自动消失
+            setTimeout(() => {
+                notification.style.opacity = '0';
+                notification.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 3000);
+        }
+        
+        // 定期刷新状态（每30秒）
+        setInterval(refreshStatus, 30000);
+    </script>
+</body>
+</html>

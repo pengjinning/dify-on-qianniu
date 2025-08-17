@@ -1,0 +1,28 @@
+{
+  "name": "dify-qianniu-bot-electron",
+  "version": "1.0.0",
+  "description": "千牛智能客服机器人 - Electron版本",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron .",
+    "dev": "tsc && electron . --dev",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": ["electron", "automation", "dify", "qianniu", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "electron": "^27.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^3.1.0",
+    "axios": "^1.6.0",
+    "jimp": "^0.22.0",
+    "form-data": "^4.0.0"
+  }
+}
