@@ -5,7 +5,6 @@
 [![Dify](https://img.shields.io/badge/Powered%20by-Dify-orange.svg)](https://dify.ai)
 [![Clicknium](https://img.shields.io/badge/Automation-Clicknium-blue.svg)](https://www.clicknium.com/)
 
-
 > 🎯 **一句话介绍**：通过RPA技术自动监测千牛客服消息，结合AI智能回复，实现7x24小时无人值守客服
 
 ## 🎯 项目特点
@@ -37,17 +36,20 @@
 ### 安装步骤
 
 **1. 克隆项目**
+
 ```bash
 git clone https://github.com/tmwgsicp/dify-on-qianniu.git
 cd dify-on-qianniu
 ```
 
 **2. 安装依赖**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 **3. 配置文件**
+
 ```bash
 cp config.example.json config.json
 ```
@@ -61,7 +63,6 @@ cp config.example.json config.json
 1. 打开千牛客户端
 2. 进入 **系统设置** → **接待设置**
 3. **勾选**：`关闭客服工作台是否清除正在接待列表已读会话`
-
 
 **5. 界面元素录制**
 
@@ -79,6 +80,7 @@ cp config.example.json config.json
 | `button_transfer` | 转人工按钮 | 录制接待中心的转人工按钮 |
 
 **6. 运行程序**
+
 ```bash
 python qianniu_bot.py
 ```
@@ -172,12 +174,12 @@ dify-on-qianniu/
    - 确认配置文件格式正确
    - 验证 Python 版本是否为 3.9+
 
-
 ## 🚀 扩展开发
 
 ### 平台适配
 
 理论上可以适配其他电商客服平台：
+
 - 京东
 - 拼多多
 - 抖音
@@ -232,4 +234,4 @@ dify-on-qianniu/
 
 ---
 
-**⭐ 如果这个项目对你有帮助或启发，请给个Star支持一下！** 
+**⭐ 如果这个项目对你有帮助或启发，请给个Star支持一下！**
